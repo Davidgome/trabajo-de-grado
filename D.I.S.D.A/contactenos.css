@@ -1,0 +1,30 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+div{
+    margin:12px auto;
+    width:1200px;
+    border:1px solid black;
+}
+header{
+    text-align:center;
+    float: 20px impact;
+
+}
+article{
+background:#d1ccc0;    
+}
+section{
+float:left;
+background:#d1ccc0;
+}
+aside{
+float:left;
+background:#d1ccc0;
+}
+footer{
+clear:both;
+text-align:center;
+background:white;
+}

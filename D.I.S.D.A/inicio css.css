@@ -1,0 +1,44 @@
+*{
+    margin:0px;
+    padding:0px;
+
+}
+div{
+    width:1200px;
+    border:1px solid black;
+    margin:12px auto;
+}
+header{
+    font:20px impact;
+    text-align:center;
+    background:rgb(22, 21, 21);
+    color:white;
+}
+#cabecera{
+    text-align:center;
+    font:bold 20px Lucida Bright; 
+    background:#1e272e;
+    padding: 12px;
+}
+nav{
+    background:#d1ccc0;
+}
+nav li{
+    list-style:none;
+    display:inline-block;
+    width:22%;
+    text-align:center;
+    margin:12px auto;
+}
+section{
+    text-align:center;
+}
+ img{
+    text-align:center;
+    margin:12px 12px;  
+}
+footer{
+  text-align:center;
+  background:#d1ccc0;
+  font:bold 12px Arial Black;  
+}

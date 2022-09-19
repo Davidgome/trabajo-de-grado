@@ -1,0 +1,22 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+div{
+    margin:12px auto;
+    width:1200px;
+    border:1px solid black;
+}
+header{
+    background:#d1ccc0;
+    text-align:center;
+    font:20px impact;
+}
+article{
+    text-align:center;
+    margin:auto;
+}
+footer{
+    text-align:center;
+    background:#d1ccc0;
+}
