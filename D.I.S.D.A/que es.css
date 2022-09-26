@@ -14,6 +14,28 @@ header{
     font:20px impact;
     text-align:center;
 }
+nav{
+    margin:auto;
+    text-align:center;
+    background:white;
+    }
+    nav li{
+        list-style:none;
+        display:inline-block;
+        
+        margin:auto;
+        text-align:center;
+       
+    }
+    
+    nav li img{
+        padding:10px;
+        width:80px;
+        height:80px;
+        display:flex;
+        margin:auto;
+        text-align:center;
+    }
 article{
     
     text-align: center;

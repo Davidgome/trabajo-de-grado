@@ -3,6 +3,12 @@
     padding:0px;
 
 }
+body{
+    box-sizing:border-box;
+    margin:0px;
+    padding:0px;
+}
+
 div{
     width:1200px;
     border:1px solid black;
@@ -17,25 +23,92 @@ header{
 #cabecera{
     text-align:center;
     font:bold 20px Lucida Bright; 
-    background:#1e272e;
+    background:#798a98;
     padding: 12px;
 }
 nav{
     background:#d1ccc0;
+    margin:auto;
 }
 nav li{
     list-style:none;
-    display:inline-block;
-    width:22%;
+    display:block;
+    width:20%;
     text-align:center;
-    margin:12px auto;
+    margin:auto;
+    
+    
 }
-section{
+.nav>li{
+    float:left;
+}
+.nav li a{
+    text-decoration:none;
+    padding:15px;
+    color:black;
+    display:block;
+    background:#d1ccc0; 
+    margin:auto;
+}
+.nav  li ul{
+    display:none;
+    margin:1px solid black;
+    min-width:19%;
+    position:absolute;
+}
+.nav li a:hover{
+    background: #f2f0ed;
+    font:bold;
+    color:#d1ccc0;
+    
+    
+}
+nav li ul a:hover{
+background:#f2f0ed;
+border:1px solid black;
+}
+.nav li:hover>ul{
+    display:block;
+    
+    min-width:15%;
+    border:1px solid black;
+    
+    
+    background:#f2f0ed ;
+}
+.imagen-principal{
     text-align:center;
+    margin:auto;
+}
+.imagen-principal img{
+    
+    object-fit:cover;
+    text-align:center;
+    margin:auto;
+}
+
+.lista-imagenes {
+    object-fit:cover;
+    display:flex;
+    overflow-y:auto;
+    text-align:center;
+    margin:auto;
+    
+}
+.lista-imagenes img{
+    margin:auto;
+    text-align:center;
+    width:100%;
+    width:80px;
+    height:80px;
+    object-fit:cover;
+    display:block;
+    
 }
  img{
+    
     text-align:center;
-    margin:12px 12px;  
+    margin:auto;  
 }
 footer{
   text-align:center;

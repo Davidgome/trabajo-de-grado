@@ -12,14 +12,41 @@ header{
     text-align:center;
     font:20px impact;
 }
+nav{
+   margin:auto;
+    overflow-y:auto;
+    text-align:center;
+   
+}
+nav li{
+    list-style:none;
+    display:inline-block;
+    overflow-y:auto;
+    margin:auto;
+    text-align:center;
+    object-fit:cover;
+    
+}
+nav   li img{
+padding:10px;
+margin:auto;
+text-align:center;
+width:80px;
+height:80px;
+object-fit:cover;
+display:flex;
+}
 section{
-font:12px times new roman;
+    font:12px times new roman;
 }
 footer{
     text-align:center;
     background:#d1ccc0;
-
+    clear:both;
 }
+
+
+
 article{
     text-align:center;
     margin: auto;

@@ -1,0 +1,53 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+div{
+    width:1200px;
+    border:1px solid black;
+    margin:12px auto;
+    background:#d1ccc0;
+}
+header{
+font:20px impact;
+text-align:center;
+background:#798a98;
+
+}
+nav{
+margin:auto;
+text-align:center;
+background:white;
+}
+nav li{
+    list-style:none;
+    display:inline-block;
+    overflow-y:auto;
+    margin:auto;
+    text-align:center;
+   
+}
+
+nav li img{
+    padding:10px;
+    width:80px;
+    height:80px;
+    display:flex;
+    margin:auto;
+    text-align:center;
+}
+table  th{
+    font:12px arial;
+}
+table{
+    width:200px;
+    text-align:center;
+    margin:auto;
+    background:white;
+}
+footer{
+    text-align:center;
+    background:#798a98;
+
+}
