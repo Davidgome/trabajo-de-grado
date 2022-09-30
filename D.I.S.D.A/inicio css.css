@@ -29,53 +29,63 @@ header{
 nav{
     background:#d1ccc0;
     margin:auto;
+    
+}
+ul,ol{
+    list-style:none;
+}
+.nav li a{
+    text-decoration:none;
+    padding:10px 15px;
+    color:black;
+    display:block;
+    background-color:#d1ccc0; 
+}
+.nav li a:hover{
+    background: #f2f0ed;
+    font:bold;
+    color:#d1ccc0;   
+}
+.nav>li{
+    float:left;
+}
+.nav  li ul {
+    border:1px solid black;
+    display:none;
+    
+    background:#d1ccc0;
+    min-width:140px;
+    position:absolute;
+}
+.nav li:hover>ul{
+    display:block;  
+}
+.nav li ul li {
+    
+}
+.nav li ul li ul{
+    right:-140px;
+    top:0px;
 }
 nav li{
     list-style:none;
     display:block;
-    width:20%;
+    width:240px;
     text-align:center;
     margin:auto;
     
     
 }
-.nav>li{
-    float:left;
-}
-.nav li a{
-    text-decoration:none;
-    padding:15px;
-    color:black;
-    display:block;
-    background:#d1ccc0; 
-    margin:auto;
-}
-.nav  li ul{
-    display:none;
-    margin:1px solid black;
-    min-width:19%;
-    position:absolute;
-}
-.nav li a:hover{
-    background: #f2f0ed;
-    font:bold;
-    color:#d1ccc0;
-    
-    
-}
-nav li ul a:hover{
-background:#f2f0ed;
-border:1px solid black;
-}
-.nav li:hover>ul{
-    display:block;
-    
-    min-width:15%;
-    border:1px solid black;
-    
-    
-    background:#f2f0ed ;
-}
+
+
+
+
+
+
+
+
+
+
 .imagen-principal{
     text-align:center;
     margin:auto;
