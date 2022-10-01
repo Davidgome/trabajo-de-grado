@@ -50,9 +50,7 @@ ul,ol{
     float:left;
 }
 .nav  li ul {
-    border:1px solid black;
     display:none;
-    
     background:#d1ccc0;
     min-width:140px;
     position:absolute;
